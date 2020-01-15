@@ -1,0 +1,42 @@
+version: '2'
+services:
+    web:
+        build:
+            context: ./
+            dockerfile: nginx_config/dockerfiles/web.docker
+        volumes:
+            - "./:/var/www"
+            - "./nginx_config/etc/nginx.conf:/etc/nginx/nginx.conf"
+            - "./nginx_config/etc/nginx-proxy.conf:/etc/nginx/conf.d/nginx-proxy.conf"
+            - "./certs/cert.pem:/etc/nginx/conf.d/cert.pem"
+            - "./certs/key.pem:/etc/nginx/conf.d/key.pem"
+        ports:
+            - "80:80"
+            - "443:443"
+        links:
+            - app
+    app:
+        build:
+            context: ./
+            dockerfile: nginx_config/dockerfiles/app.docker
+        volumes:
+            - "./:/var/www"
+            - "./.env:/var/www/.env:ro"
+        expose:
+            - "9000"
+        ports:
+            - "9000:9000"
+        environment:
+            - "DB_PORT=3306"
+            - "DB_HOST=database"
+    database:
+        image: mysql:5.7
+        environment:
+          - "MYSQL_DATABASE=webrtc"
+          - "MYSQL_USER=root"
+          - "MYSQL_PASSWORD=password"
+          - "MYSQL_ROOT_PASSWORD=password"
+        ports:
+            - "3361:3306"
+        volumes:
+          - ../hostdb/mysql-local:/var/lib/mysql

@@ -1,0 +1,63 @@
+FROM php:7.1-fpm
+
+
+RUN apt-get update && apt-get install -y libmcrypt-dev mysql-client \
+    && docker-php-ext-install mcrypt pdo_mysql
+
+RUN apt-get install -y gnupg2
+
+# Install Curl
+
+RUN apt-get install -y curl
+
+# Install Node
+RUN curl -sSL https://deb.nodesource.com/setup_8.x | bash -
+RUN apt-get install -y nodejs
+RUN apt-get install zip unzip
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+
+
+# Install Yarn for package installation and update NPM version
+RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - \
+    && echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
+
+
+RUN apt-get install -y git-core 
+
+RUN git config --global url."https://".insteadOf git://
+
+
+RUN apt-get update && apt-get install yarn \
+    && yarn global add npm && npm -v
+
+#Install ghostscript
+RUN apt-get install ghostscript -y
+
+#Install libreOffice requirement
+COPY ./nginx_config/packages/LibreOffice_6.2.4_Linux_x86-64_deb.tar.gz ./
+RUN tar -zxvf LibreOffice_6.2.4_Linux_x86-64_deb.tar.gz \
+&& cd LibreOffice_6.2.4.2_Linux_x86-64_deb/DEBS \
+&& dpkg -i *.deb \
+&& cd ../../  && rm LibreOffice_6.2.4_Linux_x86-64_deb.tar.gz
+
+#Install libreoffice dependencies
+RUN apt-get install libxinerama1 -y
+RUN apt-get install cairo-5c -y
+RUN apt-get install libsm6 -y
+
+RUN ln -sf /usr/local/bin/libreoffice6.2 /usr/bin/soffice
+
+# Clean and remove unnecessary packages to reduce image size.
+RUN apt-get autoremove -y \
+  && apt-get autoclean -y \
+  && rm -rf /var/lib/apt/lists/*
+
+
+RUN npm install pm2 -g
+RUN npm install laravel-echo-server -g
+
+ADD ./nginx_config/etc/php/php.ini-production /usr/local/etc/php/conf.d/custom.ini
+
+WORKDIR /var/www
+
+

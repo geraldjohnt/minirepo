@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "prod": "gulp --production",
+    "dev": "gulp watch"
+  },
+  "devDependencies": {
+    "bootstrap-sass": "^3.0.0",
+    "gulp": "^3.9.1",
+    "keen-ui": "^0.8.9",
+    "laravel-elixir": "^5.0.0",
+    "laravel-elixir-vueify": "^1.0.6",
+    "moment": "^2.17.1",
+    "vue": "^1.0.20",
+    "vue-material": "^0.6.3",
+    "vue-resource": "^1.1.0",
+    "vue-router": "^0.7.13"
+  },
+  "dependencies": {
+    "peerjs": "^0.3.14"
+  }
+}
