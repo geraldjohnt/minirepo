@@ -29,7 +29,6 @@
                     </div>
                 </form>
             </div>
-            <div class="footerCopyright">&#169; 2017 Mee2box. All right Reserved.</div>
         </div>
     </div>
 </template>
