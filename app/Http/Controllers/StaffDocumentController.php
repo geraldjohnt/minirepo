@@ -10,6 +10,7 @@ use App\StaffFolder;
 use App\StaffDocumentPage;
 use App\Http\Requests\StaffDocumentRequest;
 use App\Transformers\StaffDocumentTransformer;
+use Illuminate\Support\Facades\Log;
 use File;
 
 class StaffDocumentController extends ApiController
@@ -128,26 +129,26 @@ class StaffDocumentController extends ApiController
 
                 if($a_files) {
                     foreach($a_files as $file) {
-                        // For Local
-                        $file = str_replace('C:\xampp\htdocs\mee2box\storage\a','a',$file);
-                        $a_file_details = $this->checkFile($file);
+			// For Local
+                        //$file = str_replace('\var\www\html\mee2box\storage\a','a',$file);
+			$a_file_details = $this->checkFile($file);
                         array_push($return_statement, $a_file_details);
 
                         // Commented, a_file_details in not found
-                        // StaffDocumentPage::create([
-                        //     'staff_document_id' => $item->id,
-                        //     'image_url'         => $file,
-                        //     'mime_type'         => $a_file_details['mime'],
-                        //     'size'              => $a_file_details['size']
-                        // ]);
+                        StaffDocumentPage::create([
+                             'staff_document_id' => $item->id,
+                             'image_url'         => $file,
+                             'mime_type'         => $a_file_details['mime'],
+                             'size'              => $a_file_details['size']
+                        ]);
 
                         // // For Local
-                        StaffDocumentPage::create([
-                            'staff_document_id' => $item->id,
-                            'image_url'         => $file,
-                            'mime_type'         => 'jpg',
-                            'size'              => 0
-                        ]);
+                        //StaffDocumentPage::create([
+                        //    'staff_document_id' => $item->id,
+                        //    'image_url'         => $file,
+                        //    'mime_type'         => 'jpg',
+                        //    'size'              => 0
+                        //]);
                     }
                 }
             }
