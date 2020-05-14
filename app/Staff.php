@@ -85,8 +85,8 @@ class Staff extends Model
                             'full_name' => $firstname . ' '. $lastname,
                             'differ'=>  empty($value->user->last_login) ? '0 日前' : date_diff(date_create($value->user->last_login),date_create(date('Y-m-d H:i:s')))->format("%a"). ' 日前',
                             'differInt'=>  empty($value->user->last_login) ? 0 : (int)date_diff(date_create($value->user->last_login),date_create(date('Y-m-d H:i:s')))->format("%a"),
-                            'last_connection'=>empty($value->negotations) ? null : !empty($value->negotations->last()['updated_at']) ? date_create($value->negotations->last()['updated_at'])->format("Y/m/d H:i") : null,
-                            'last_login'=> empty($value->user->last_login) ?  null : $value->user->last_login ? date_format(date_create($value->user->last_login),"Y/m/d H:i") : '',
+                            'last_connection'=>empty($value->negotations) ? null : (!empty($value->negotations->last()['updated_at']) ? date_create($value->negotations->last()['updated_at'])->format("Y/m/d H:i") : null),
+                            'last_login'=> empty($value->user->last_login) ?  null : ($value->user->last_login ? date_format(date_create($value->user->last_login),"Y/m/d H:i") : ''),
                             'negotations' => !empty($value->negotations) ? $value->negotations : null
                     ]       
 

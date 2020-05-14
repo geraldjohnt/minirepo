@@ -11,7 +11,7 @@
                 <slot name="bottom-con"></slot>
                <!--  </div> -->
                <div class="footer">
-                   <span class="footer-copyright">&#169; 2017 Mee2box. All right Reserved.</span>
+                   <span class="footer-copyright">&#169; 2020 Online Minimum. All right Reserved.</span>
                </div>
                 
             </div>

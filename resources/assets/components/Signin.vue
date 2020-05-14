@@ -5,8 +5,8 @@
                 {{ error_message }}
             </ui-alert>
             <div class="protoSigninCon">
-                <img src="image/mee2box-white-vert.png" class="imgResponsive logo" v-cloak>
-                <h5 class="protoTitle"> オンライン商談システム </h5>
+                <img style="height: 90px; max-width: 100%;" src="image/mee2box-white-vert.png" class="imgResponsive logo" v-cloak>
+		<br />
                 <form autocomplete="off" @submit.prevent="signin">
                     <div class="form-group">
                         <ui-textbox
