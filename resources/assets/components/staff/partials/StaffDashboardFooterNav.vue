@@ -350,7 +350,7 @@
 .footer{
  width: 100%;
  position: fixed;
- background: #3b5998;
+ background: #3cb371;
  padding: 0;
  color: #fff;
  bottom: 0;
@@ -402,7 +402,7 @@
            &.tv { background-position-x: -104px; }
            &.assignment {  background-position-x: -211px;}
            &.edit { background-position-x: -327px; }
-           &.close {  background-position-x: -447px;}
+           &.close {  background-position-x: -447px; background-position-y: -45px;}
            &.subtitle {
              background-position-x: -634px;
              background-position-y: -17px;
@@ -508,7 +508,7 @@
                 &.tv { background-position-x: -104px; }
                 &.assignment {  background-position-x: -211px;}
                 &.edit { background-position-x: -327px; }
-                &.close {  background-position-x: -447px; }
+                &.close {  background-position-x: -447px; background-position-y: -45px; }
             }
             .mee2box-webcam{
                 background: url(../image/webcam.png) no-repeat;
@@ -603,7 +603,7 @@
    }
    .url-modal-header-text{
        font-size: 23px;
-       color: #3B5998;
+       color: #3cb371;
        font-family: 'NotoSans-Bold';
    }
    .url-icon-color{
@@ -617,7 +617,7 @@
 .url-link{
         margin-bottom: 4rem;
    .url-link-text{
-    color: #3b5998 !important;
+    color: #3cb371 !important;
    padding: 10px;
    font-size: 14px;
    font-weight: 600;
@@ -639,7 +639,7 @@
    }
    .url-modal-header-text{
        font-size: 20px;
-       color: #3B5998;
+       color: #3cb371;
        font-family: 'NotoSans-Bold';
    }
 }
@@ -647,7 +647,7 @@
     margin-bottom: 2rem;
     z-index: 701;
     .ask-record-text{
-        /* color: #3b5998 !important; */
+        /* color: #3cb371 !important; */
         border-radius: 20px 20px;
         color: darkblue !important;
         padding: 10px;

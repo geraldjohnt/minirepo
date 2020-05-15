@@ -533,7 +533,7 @@ export default {
                 line-height: 1.4em;
                 overflow-wrap: break-word;
                 word-break: break-all;
-                background: #3b5998;
+                background: #3cb371;
                 color: #fff;
             }
             td {

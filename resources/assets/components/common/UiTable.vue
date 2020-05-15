@@ -1256,7 +1256,7 @@ export default {
                 border-bottom: 2px solid #ddd;
                 line-height: 1.4em;
                 white-space: nowrap;
-                background: #3b5998;
+                background: #3cb371;
                 color: #fff;
             }
             td {

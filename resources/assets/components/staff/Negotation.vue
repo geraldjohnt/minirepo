@@ -576,7 +576,7 @@
         }
         #textbox-modal::-webkit-scrollbar-track {}
         #textbox-modal::-webkit-scrollbar-thumb {
-            background-color: #3b5998;
+            background-color: #3cb371;
         }
     }
 .Modaltext{

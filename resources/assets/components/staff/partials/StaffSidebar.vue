@@ -317,8 +317,8 @@ export default {
 }
 
 .icon-white {
-   -webkit-filter: grayscale(100%) brightness(75%) sepia(100%) hue-rotate(-183deg) saturate(700%) contrast(0.8);
-   filter: grayscale(100%) brightness(75%) sepia(100%) hue-rotate(-183deg) saturate(700%) contrast(0.8);
+   -webkit-filter: invert(53%) sepia(74%) saturate(356%) hue-rotate(94deg) brightness(97%) contrast(90%);
+   filter: invert(53%) sepia(74%) saturate(356%) hue-rotate(94deg) brightness(97%) contrast(90%);
 }
 
 .proto .protoDashboard .protoSidebar.ui-sidebar .ui-sidebar-content ul.sidebarMenu li a.v-link-active .ui-icon{
@@ -389,7 +389,7 @@ export default {
    top: auto;
    border-top: 15px solid transparent;
    border-bottom: 15px solid transparent;
-   border-left: 20px solid #3B5998;
+   border-left: 20px solid #3cb371;
 }
 
 .proto .protoDashboard .protoSidebar.ui-sidebar .ui-sidebar-content ul.sidebarMenu{

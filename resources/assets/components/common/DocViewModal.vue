@@ -409,7 +409,7 @@ export default {
     table{
       tr{
         th{
-            background: #3b5998;
+            background: #3cb371;
             color: #fff;
         }
       }
@@ -508,7 +508,7 @@ export default {
 
                 .docwrap-body-header{
                     margin-bottom: 10px;
-                    background: #3b5998;
+                    background: #3cb371;
                     box-shadow: 0px 2.4px 1px -1px #808080;
                     
                     span {
@@ -517,7 +517,7 @@ export default {
                         padding-top: 5px;
                         padding-left: 5px;
                         padding-bottom: 5px;
-                        background-color: #3b5998;
+                        background-color: #3cb371;
                     }
                     .title{
                         width: 30%;
@@ -564,7 +564,7 @@ export default {
                                 cursor: default !important;
                             }
                             .view, .share{
-                                color: #3b5998;
+                                color: #3cb371;
                                 padding: 0px 10px 0px 10px;
                                 display: inline-block;
 
@@ -632,7 +632,7 @@ export default {
     overflow: hidden;
      i{
         font-size: 17px;
-        color: #3b5998;
+        color: #3cb371;
         margin-right: 2px;
         position: relative;
         bottom: -1px;
@@ -660,14 +660,14 @@ export default {
         }
 }
     .folder:hover{
-        box-shadow: 0 0 2px rgb(56, 88, 153), 0 2px 2px #385899;
-        border: 1px solid #385899;
+        box-shadow: 0 0 2px rgb(56, 88, 153), 0 2px 2px #3cb371;
+        border: 1px solid #3cb371;
         cursor: pointer;
         transition: .3s;
         -webkit-transition: .3s;
 
         .folder-title{
-            color:  #385899;
+            color:  #3cb371;
         }
     }
 

@@ -736,7 +736,7 @@ export default {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: #385899;
+  background: #3cb371;
   margin: -3px 0 0 -3px;
 }
 .lds-roller div:nth-child(1) {
@@ -825,7 +825,7 @@ export default {
         margin-right: 5px;
         margin-top: -45px ;
         margin-bottom: 15px;
-        background: #385899;
+        background: #3cb371;
         padding: 5px 5px 5px 5px;
         color: white;
     }
@@ -933,8 +933,8 @@ export default {
 //        }
 //    }
 //    .folder:hover{
-//        box-shadow: 0 0 2px rgb(56, 88, 153), 0 2px 2px #385899;
-//        border: 1px solid #385899;
+//        box-shadow: 0 0 2px rgb(56, 88, 153), 0 2px 2px #3cb371;
+//        border: 1px solid #3cb371;
 //        cursor: pointer;
 //        transition: .3s;
 //       -webkit-transition: .3s;
@@ -1024,7 +1024,7 @@ export default {
 
         i{
             font-size: 35px;
-            color: #3b5998;
+            color: #3cb371;
             position: relative;
             top: -40px;
         }
@@ -1056,19 +1056,19 @@ export default {
         }
     }
     .draggable-container--over{
-        box-shadow: 0 0 2px rgb(56, 88, 153), 0 2px 2px #385899;
-        border: 1px solid #385899;
+        box-shadow: 0 0 2px rgb(56, 88, 153), 0 2px 2px #3cb371;
+        border: 1px solid #3cb371;
         cursor: pointer;
         transition: .3s;
         color: #fff !important;
-        background-color: #385899;
+        background-color: #3cb371;
         i{
             color: #ffffff;
         }
     }
     .folder:hover{
-        box-shadow: 0 0 2px rgb(56, 88, 153), 0 2px 2px #385899;
-        border: 1px solid #385899;
+        box-shadow: 0 0 2px rgb(56, 88, 153), 0 2px 2px #3cb371;
+        border: 1px solid #3cb371;
         cursor: pointer;
         transition: .3s;
         -webkit-transition: .3s;
@@ -1080,7 +1080,7 @@ export default {
     }
 
     .draggable-mirror{
-       background-color: #385899 !important;
+       background-color: #3cb371 !important;
         width: 150px !important;
         height: 38px !important;
         box-shadow: 0 0 15px #fff, 0 2px 2px rgba(0, 0, 0, 0.2) !important;
@@ -1116,7 +1116,7 @@ export default {
         }
         .doc-icon{
             font-size: 30px;
-            color: #3b5998;
+            color: #3cb371;
             position: relative;
         }
         .doc-icon , span{
@@ -1182,14 +1182,14 @@ export default {
        
     }
     .document:hover{
-        box-shadow: 0 0 2px rgb(56, 88, 153), 0 2px 2px #385899;
-        border: 1px solid #385899;
+        box-shadow: 0 0 2px rgb(56, 88, 153), 0 2px 2px #3cb371;
+        border: 1px solid #3cb371;
         cursor: pointer;
         transition: .3s;
         -webkit-transition: .3s;
 
         .document-title{
-            color:  #385899;
+            color:  #3cb371;
         }
     }
 
@@ -1204,7 +1204,7 @@ export default {
         .ui-menu-option-icon {
             margin-right: 16px;
             font-size: 26px;
-            color: #385899;
+            color: #3cb371;
         }
 
         .ui-menu-option-text {

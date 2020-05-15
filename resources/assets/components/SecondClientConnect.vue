@@ -1013,7 +1013,7 @@ export default {
                     document.querySelector('.videoFeedCon').style.zIndex = 110;
                     document.querySelector('.video-user-feed').style.width = '15%';
                     document.querySelector('.videoFeedCon').style.height = '100%';
-                    document.querySelector('.footer').style.borderTop = '1px solid #203b74';
+                    document.querySelector('.footer').style.borderTop = '1px solid #3c9371';
                     this.childCams.forEach(function(elements){
                         elements.style.width = '15%'
                     })
@@ -2761,7 +2761,7 @@ export default {
             }
             .meeting-note-head {
                 height: 25px;
-                border-bottom: 1px solid #3b5998;
+                border-bottom: 1px solid #3cb371;
                 margin: 15px;
                 display: flex;
                 width: 90%;
@@ -2780,7 +2780,7 @@ export default {
             display: inline-block;
         }
     .share_link_btn{
-        background-color: #3b5998;
+        background-color: #3cb371;
         color: #ffff;
         padding: 5px 2px 10px 2px;
         margin-top: -66px;
@@ -2809,7 +2809,7 @@ export default {
     .file-size{
         font-family: 'NotoSans-Bold';
         font-size: 12px;
-        color: #3B5998;
+        color: #3cb371;
         text-align: center;
         margin-top: 8px;
     }
@@ -2920,10 +2920,10 @@ export default {
                     outline: 1px solid #0d275f;
                 }
                 .subtitle-header{
-                            color: #3b5998;
+                            color: #3cb371;
                             font-family: 'NotoSans-Bold';
                             height: 25px;
-                            border-bottom: 1px solid #3b5998;
+                            border-bottom: 1px solid #3cb371;
                             margin: 15px;
                             display: -ms-flexbox;
                             display: flex;
@@ -2932,7 +2932,7 @@ export default {
                 .subtitle-footer {
                 bottom: -50px;
                 position: absolute;
-                background: #3B5998;
+                background: #3cb371;
                 width: 100%;
                 height: 50px;
                 .ui-button-text {
@@ -2950,7 +2950,7 @@ export default {
                 .ui-button {
                     margin: 5px;
                     background: #ffffff;
-                    color: #3B5998;
+                    color: #3cb371;
                 }
             }
             }
@@ -2979,7 +2979,7 @@ export default {
         .btn {
             background: #e4e6e9;
             border-radius: 20px;
-            color: #3b5998;
+            color: #3cb371;
             width: 31px;
             height: 21px;
             font-size: 10px;
@@ -3012,7 +3012,7 @@ export default {
   height: 100px;
   width: 100%;
   position: fixed;
-  background: #3b5998;
+  background: #3cb371;
   padding: 0;
   color: #fff;
   bottom: 0;
@@ -3062,7 +3062,7 @@ export default {
             &.tv { background-position-x: -104px; }
             &.assignment {  background-position-x: -211px;}
             &.edit { background-position-x: -327px; }
-            &.close {  background-position-x: -447px;}
+            &.close {  background-position-x: -447px; background-position-y: -45px;}
           margin-bottom: 0.5rem;
         }
 
