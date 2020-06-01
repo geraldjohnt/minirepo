@@ -8,7 +8,7 @@
                 {{ error_message }}
             </ui-alert>
             <div class="protoForgotPasswordCon">
-                <img src="image/mee2box-white-vert.png" class="imgResponsive logo" v-cloak>
+                <img src="image/mee2box-white.png" class="imgResponsive logo" v-cloak>
                 <h5 class="protoTitle"> オンライン商談システム </h5>
                 <form autocomplete="off" @submit.prevent="resetPass">
                     <div class="form-group">

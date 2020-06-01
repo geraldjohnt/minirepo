@@ -1161,7 +1161,7 @@
             document.querySelector('.zoom_out_screen').style.top = '10px';
             document.querySelector('.videoFeedCon').style.zIndex = 110;
             document.querySelector('.videoFeedCon').style.height = '100%';
-            document.querySelector('.footer').style.borderTop = '1px solid #3c9371';
+            document.querySelector('.footer').style.borderTop = '1px solid #232323';
             this.childCams.forEach(function(elements){
               elements.style.width = '15%'
             })
@@ -1742,7 +1742,7 @@
         try {
           let clients = this.clients
           let sessionId = this.sessionids
-          const colors = ['black','#3cb371','green','red']
+          const colors = ['black','#333333','green','red']
           for(let key in sessionId){
             for(let index in clients){
               if (sessionId[key] == clients[index].id){
@@ -3758,7 +3758,7 @@
   }
   .custom-child1{
     font-size:14px;
-    color: #3cb371;
+    color: #333333;
     font-weight: 600;
   }
   .custom-child2{
@@ -3780,7 +3780,7 @@
       width: 100%;
       padding-left: 50%;
       height: 100%;
-      background-color: #3cb371;
+      background-color: #333333;
       top: 0;
       z-index: 20;
     }
@@ -3842,13 +3842,13 @@
       }
       span {
         font-family: 'NotoSans-Medium';
-        color: #3cb371;
+        color: #333333;
         bottom: 10px;
         position: absolute;
       }
     }
     .icon-color{
-      background:#3cb371;
+      background:#333333;
     }
 
     // .annotation {
@@ -3889,7 +3889,7 @@
         height: 100%;
         .ui-resizeable {
           .ui-fab-mini {
-            background-color: #3cb371;
+            background-color: #333333;
             height: 25px;
             border-radius: 0;
             box-shadow: none;
@@ -3929,10 +3929,10 @@
         }
       }
       .meeting-note-head {
-        color:#3cb371;
+        color:#333333;
         font-family: 'NotoSans-Bold';
         height: 25px;
-        border-bottom: 1px solid #3cb371;
+        border-bottom: 1px solid #333333;
         margin: 15px;
         display: flex;
         width: 90%;
@@ -3941,7 +3941,7 @@
       .meeting-note-footer {
         bottom: -105px;
         position: absolute;
-        background: #3cb371;
+        background: #333333;
         width: 100%;
         height: 50px;
         .ui-button-text {
@@ -3959,7 +3959,7 @@
         .ui-button {
           margin: 5px;
           background: #ffffff;
-          color: #3cb371;
+          color: #333333;
           background-position: center;
           transition: background 0.8s;
           padding:0!important;
@@ -4025,10 +4025,10 @@
       font-size: 12px;
     }
     .meetingSales .meeting-sales-head{
-      color: #3cb371;
+      color: #333333;
       font-family: 'NotoSans-Bold';
       height: 25px;
-      border-bottom: 1px solid #3cb371;
+      border-bottom: 1px solid #333333;
       margin: 15px;
       display: -ms-flexbox;
       display: flex;
@@ -4056,7 +4056,7 @@
     .meetingSales .meeting-sales-footer{
       bottom: -105px;
       position: absolute;
-      background: #3cb371;
+      background: #333333;
       width: 100%;
       height: 50px;
     }
@@ -4075,7 +4075,7 @@
     }
     .meetingSales .meetingSalesWrapper .ui-resizeable .ui-fab-mini {
       bottom: -2px;
-      background-color: #3cb371;
+      background-color: #333333;
       height: 25px;
       border-radius: 0;
       box-shadow: none;
@@ -4107,7 +4107,7 @@
     }
 
     .share_link_btn{
-      // background-color: #3cb371;
+      // background-color: #333333;
       // color: #ffff;
       // padding: 5px 2px 10px 2px;
       // margin-top: -66px;
@@ -4176,7 +4176,7 @@
       }
 
       .share_link_btn{
-        background-color: #3cb371;
+        background-color: #333333;
         color: #ffff;
         padding: 5px 2px 10px 2px;
         margin-top: -66px;
@@ -4236,7 +4236,7 @@
   }
   .proto .peerCon .protoConnectContainer .wrapper .row:not(.middle-xs):not(.center-xs) .subtitle .ui-resizeable .ui-fab-mini {
     bottom: 28px;
-    background-color: #3cb371;
+    background-color: #333333;
     height: 25px;
     border-radius: 0;
     box-shadow: none;
@@ -4327,10 +4327,10 @@
         outline: 1px solid #0d275f;
       }
       .subtitle-header{
-        color: #3cb371;
+        color: #333333;
         font-family: 'NotoSans-Bold';
         height: 25px;
-        border-bottom: 1px solid #3cb371;
+        border-bottom: 1px solid #333333;
         margin: 15px;
         display: -ms-flexbox;
         display: flex;
@@ -4339,7 +4339,7 @@
       .subtitle-footer {
         bottom: -50px;
         position: absolute;
-        background: #3cb371;
+        background: #333333;
         width: 100%;
         height: 50px;
 
@@ -4358,7 +4358,7 @@
         .ui-button {
           margin: 5px;
           background: #ffffff;
-          color: #3cb371;
+          color: #333333;
           font-size: 11px;
           width: 110px;
           position: absolute;
@@ -4406,7 +4406,7 @@
     .btn {
       background: #e4e6e9;
       border-radius: 20px;
-      color: #3cb371;
+      color: #333333;
       width: 31px;
       height: 21px;
       font-size: 10px;
@@ -4419,7 +4419,7 @@
     z-index: 100;
     font-weight: 900;
     text-align: center;
-    background: #3cb371;
+    background: #333333;
     position: fixed;
     left: 50%;
     height: 34px;

@@ -371,7 +371,7 @@ export default {
 .ui-switch-thumb {
     width: 30px;
     height: 30px;
-    background-color: #3cb371!important;
+    background-color: #333333!important;
 }
 .ui-switch-label-text {
     margin-left: 0;

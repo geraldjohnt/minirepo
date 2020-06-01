@@ -133,7 +133,7 @@ export default {
         will-change: transform;
 
         .footer-copyright {
-            color: #3cb371;
+            color: #333333;
             bottom: 8px;
             left: 20px;
             font-weight: bold;

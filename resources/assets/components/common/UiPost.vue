@@ -369,7 +369,7 @@ button.viewbutton{
   content: 'See Less';
 }
 .read-more-trigger {
-    color: #3cb371;
+    color: #333333;
     font-family: calibri;
     cursor: pointer;
      font-size:14px!important;
@@ -437,7 +437,7 @@ button.viewbutton{
                     text-overflow: ellipsis;
                     overflow: hidden;
                     margin-right: 80px;
-                    color: #3cb371; //new added style
+                    color: #333333; //new added style
                     font-family: calibri;
                     font-size:17px!important;
                 }
@@ -454,7 +454,7 @@ button.viewbutton{
                     right: 0;
                     font-size: 11px;
                     line-height: 11px;
-                    color: #3cb371; //new added style
+                    color: #333333; //new added style
                     font-family: calibri;
                     font-size:14px!important;
                 }

@@ -169,7 +169,7 @@ export default {
     .profile-label{
         font-size: 18px; 
         font-weight:bold; 
-        color: #3cb371
+        color: #333333
     }
     .conlist {
         padding:0;

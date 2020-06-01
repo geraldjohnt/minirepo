@@ -2,7 +2,7 @@
 
 
     <div class="footer" v-bind:class="[footer ? 'hide' : 'show' ]" v-if="showToolbar">
-        <img src="/image/mee2box-white.png" alt="logo" class ="logo">
+        <img src="/image/mee2box-white-vert_original.png" alt="logo" class ="logo">
      
       <ul class="footer_menu" slot="actions">
          <!-- <li>
@@ -203,7 +203,7 @@
                     }
                 },
                 static_images: {
-                    logo_white: `${APP_URL}/image/mee2box-white.png`,
+                    logo_white: `${APP_URL}/image/mee2box-white-vert_original.png`,
                     logo_dark: `${APP_URL}/image/mee2box-darkcyan.png`
                 },
                 is_mobile_view: true,
@@ -350,7 +350,7 @@
 .footer{
  width: 100%;
  position: fixed;
- background: #3cb371;
+ background: #333333;
  padding: 0;
  color: #fff;
  bottom: 0;
@@ -603,7 +603,7 @@
    }
    .url-modal-header-text{
        font-size: 23px;
-       color: #3cb371;
+       color: #333333;
        font-family: 'NotoSans-Bold';
    }
    .url-icon-color{
@@ -617,7 +617,7 @@
 .url-link{
         margin-bottom: 4rem;
    .url-link-text{
-    color: #3cb371 !important;
+    color: #333333 !important;
    padding: 10px;
    font-size: 14px;
    font-weight: 600;
@@ -639,7 +639,7 @@
    }
    .url-modal-header-text{
        font-size: 20px;
-       color: #3cb371;
+       color: #333333;
        font-family: 'NotoSans-Bold';
    }
 }
@@ -647,7 +647,7 @@
     margin-bottom: 2rem;
     z-index: 701;
     .ask-record-text{
-        /* color: #3cb371 !important; */
+        /* color: #333333 !important; */
         border-radius: 20px 20px;
         color: darkblue !important;
         padding: 10px;

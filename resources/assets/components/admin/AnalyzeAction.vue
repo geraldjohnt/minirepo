@@ -190,7 +190,7 @@ export default {
         }
 
         .cbox input:checked ~ .checkmark {
-          background-color: #3cb371;
+          background-color: #333333;
         }
 
         .checkmark:after {
@@ -237,7 +237,7 @@ export default {
 
         input[type="text"]:focus{
             outline:none;
-            border: 1px solid #3cb371;
+            border: 1px solid #333333;
             box-shadow: 0 0 5px rgba(81, 203, 238, 1);
         }
 
