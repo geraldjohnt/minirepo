@@ -16,11 +16,11 @@
                     <div class="border"></div>				
                     <div class="row">
                         <div class="col-md-6 scnd-text">
-                            <p>御社でもMee2boxを利用してみませんか？</p>
+                            <p>御社でもOnline Minimumを利用してみませんか？</p>
                             <p>商談、面接、サポート業務、<br><br> 様々な業務をオンラインで効率化できます。<br><br> 無料で7日間お試し頂けます。</p>
-                            <p>まずはMee2boxの素晴らしさを知ってください。</p>
+                            <p>まずはOnline Minimumの素晴らしさを知ってください。</p>
                             <div class="link-button">
-                                <a href="https://mee2box.com/sign-up" class="btn">無料で7日間利用する</a>
+                                <!-- <a href="https://mee2box.com/sign-up" class="btn">無料で7日間利用する</a> !-->
                             </div>
                         </div>
                         <div class="col-md-6 image">

@@ -11,7 +11,7 @@
                 <slot name="bottom-con"></slot>
                <!--  </div> -->
                <div class="footer">
-                   <span class="footer-copyright">&#169; 2017 Mee2box. All right Reserved.</span>
+                   <span class="footer-copyright">&#169; 2020 Online Minimum. All right Reserved.</span>
                </div>
                 
             </div>
@@ -133,7 +133,7 @@ export default {
         will-change: transform;
 
         .footer-copyright {
-            color: #3B5998;
+            color: #333333;
             bottom: 8px;
             left: 20px;
             font-weight: bold;

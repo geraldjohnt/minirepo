@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'endpoint' => 'https://hooks.slack.com/services/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',
+    'endpoint' => 'https://hooks.slack.com/services/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',
 
     /*
     |-------------------------------------------------------------
@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'channel' => '#mee2box',
+    'channel' => '#online-meeting-ne-jp',
 
     /*
     |-------------------------------------------------------------

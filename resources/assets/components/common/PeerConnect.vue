@@ -858,8 +858,8 @@ export default {
         },
         sessionIDsetColor(data){
             try {
-                const colors = ['#282828','#3b5998','green','red']
-                const pointersColor = ['#3b5998','green','red']
+                const colors = ['#282828','#333333','green','red']
+                const pointersColor = ['#333333','green','red']
                 let sessionId = data
                 // for (let key = 0; key < sessionId.length; key++) {
                 for (let key in sessionId) {
@@ -898,7 +898,7 @@ export default {
         },
         addColor(conn, label) {
             try {
-                const colors = ['#3b5998','green','red']
+                const colors = ['#333333','green','red']
                 let connection = {
                                 id: conn.peer,
                                 src: '',
@@ -1566,20 +1566,20 @@ export default {
 }
 
 .webcam-switch{
-   background: #3b5998;
+   background: #333333;
    height: 4.5rem;
    padding: 10px 25px;
    z-index: 15;
    position: relative;
 }
 .ui-fab.color-default .ui-fab-icon {
-    color: rgb(59, 89, 152);
+    color: #333333;
 }
 .btn-default{
     background:blue;
 }
 .btn-primary{
-    background:#3b5998 !important;
+    background:#333333 !important;
     border-radius: 20px!important;
     color:#fff!important;
 }
@@ -1598,7 +1598,7 @@ export default {
     .btn{
         background:#e4e6e9;
         border-radius: 20px;
-        color:#3b5998 ;
+        color:#333333 ;
         width:50px;
         height: 29px;
         padding: 3px;   

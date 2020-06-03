@@ -1893,14 +1893,14 @@ export default {
     }
     .docu_text-pagenate{
         font-size: 15px;
-        color: #3b5998;
+        color: #333333;
         font-weight: bold;
         font-family: calibri;
         position: absolute;
         top: 20px;
         left: 90px;
         a{
-            color:#3b5998;
+            color:#333333;
             padding: 2px;
         }
     }
@@ -1986,13 +1986,13 @@ export default {
         .document-footer{
             bottom: -50px;
             position: absolute;
-            background: #3B5998;
+            background: #333333;
             width: 100%;
             height: 50px;
             .ui-button {
                 margin: 5px;
                 background: #ffffff;
-                color: #3B5998;
+                color: #333333;
             }
         }
     }
@@ -2011,7 +2011,7 @@ export default {
 
    
     .footer-doc-toolbar {
-        background: #3B5998;
+        background: #333333;
         height: 50px;
         position: relative;
         z-index: 51;
@@ -2025,7 +2025,7 @@ export default {
         .ui-button {
             margin: 10px 0px 0px 7px;
             background: #ffffff;
-            color: #3B5998;
+            color: #333333;
             font-size: 10px;
             padding: 0px;
             height: 33px;

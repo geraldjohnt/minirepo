@@ -108,7 +108,7 @@ hr {
   }
 }
 .ui-toolbar-colored {
-  background-color: #3B5998;
+  background-color: #333333;
 }
 .ui-checkbox.checked {
   &:hover, &:not(.disabled):hover, &:not(.disabled), &:not(.disabled).active {
@@ -142,20 +142,20 @@ hr {
 }
 .ui-icon-button-flat {
   &.color-primary {
-    color: #3B5998;
+    color: #333333;
     .ui-icon-button-icon {
-      color: #3B5998;
+      color: #333333;
     }
   }
 }
 .ui-fab.color-primary {
-  background-color: #3B5998;
+  background-color: #333333;
 }
 .ui-alert-body {
   &.info {
     background-color: rgba(59, 89, 152, 0.12);
     .ui-alert-icon{
-      color: #3B5998;
+      color: #333333;
     }
   }
 }
@@ -164,7 +164,7 @@ hr {
     background-color: rgba(59, 89, 152, 0.5);
   }
   .ui-switch-thumb  {
-    background-color: #3B5998;
+    background-color: #333333;
   }
 }
 .ui-menu-option {
@@ -457,7 +457,7 @@ body[modality="keyboard"] {
   }
   .ui-icon {
     &.primary {
-      color: #3B5998;
+      color: #333333;
     }
   }
   .ui-modal-mask {
@@ -470,7 +470,7 @@ body[modality="keyboard"] {
       padding: 42px;
       .ui-modal-header-text {
         font-size: 31px;
-        color: #3B5998;
+        color: #333333;
         font-family: 'NotoSans-Bold';
         i {
           background: url(../../image/toolbar-sprite.png) no-repeat scroll 5px 0 transparent;
@@ -488,7 +488,7 @@ body[modality="keyboard"] {
         right: -10px;
         width: 40px;
         height: 40px;
-        background-color: #3B5998;
+        background-color: #333333;
         i {
           margin-top: 4px;
           width: 100px;
@@ -524,7 +524,7 @@ body[modality="keyboard"] {
       }
       .ui-button-normal,
       .ui-button-normal:hover{
-        background-color: #3B5998;
+        background-color: #333333;
       }
       .ui-button-text {
         font-size: 21px;
@@ -674,7 +674,7 @@ body[modality="keyboard"] {
               padding: 15px 40px;
               display: block;
               font-size: 16px;
-              color:#3B5998;
+              color:#333333;
               font-family: 'NotoSans-Medium';
               text-transform: uppercase;
               border-top: 2px solid rgba(255,255,255,0.9);
@@ -691,7 +691,7 @@ body[modality="keyboard"] {
               }
               &.v-link-active {
                 color: #fff;
-                background: #3B5998;
+                background: #333333;
                 .ui-icon {
                   color: #fff;
                 }
@@ -812,7 +812,7 @@ body[modality="keyboard"] {
           line-height: 1em;
           margin-top: 0px;
           position: relative;
-          color: #4f92ff; //new added style
+          color: #333333; //new added style
           font-weight: 600; //new added style
           @media (max-width: 500px) {
             font-size: 28px;
@@ -1218,12 +1218,12 @@ body[modality="keyboard"] {
               margin-top: 0px;
               font-weight: normal;
               font-size: 13px;
-              color: #3b5998;
+              color: #333333;
               font-family: 'NotoSans-Bold';
-              border-bottom: 1px solid #3b5998;
+              border-bottom: 1px solid #333333;
               height: 25px;
               .ui-icon {
-                color: #3b5998;
+                color: #333333;
                 margin-right: 4px;
                 font-size: 18px;
                 margin-top: -2px;
@@ -1338,9 +1338,12 @@ body[modality="keyboard"] {
   }
   .protoSignin, .protoForgotPassword {
     .protoContentContainer {
-      background: #3B5998;
+      background: #f5f5f5;
       // background: red;
-      color: #fff;
+      color: #000;
+      .ui-textbox-label-text {
+        color: #000 !important;
+      }
       .logo {
         max-width: 150px;
       }
@@ -1492,7 +1495,7 @@ and (max-device-width: 480px)  {
       width:100%;
       padding-right: 0;
       .menu-item {
-        background-color: #3b5998;
+        background-color: #333333;
         position: relative;
         a {
           font-size: 8px !important;  //10px
@@ -1666,7 +1669,7 @@ and (max-device-width: 480px)  {
   }
 }//end
 .isActive{
-  background:#203b74;
+  background:#232323;
 }
 //==========Query for login page====================
 @media (max-width:410px){
@@ -1910,7 +1913,7 @@ and (max-device-width: 480px)  {
 @media (max-width: 767px){
   .footer{
     height: 60px;
-    border-top:1px solid #203b74;
+    border-top:1px solid #232323;
     .logo{
       display: none;
     }
@@ -2154,7 +2157,7 @@ and (max-device-width: 480px)  {
     height: 100vh;
   }
   .webcam-switch {
-    background: #3b5998;
+    background: #333333;
     height: 4.5rem;
     padding: 10px 25px;
     z-index: 15;
@@ -2171,7 +2174,7 @@ and (max-device-width: 480px)  {
     float: right;
     border-radius: 50%;
     padding-bottom: 18px;
-    background: #203b74;
+    background: #232323;
     top: -7px;
     .btn-icon{
       background: url(/image/footer-menu.png) no-repeat scroll 11px 15px transparent;
@@ -2187,7 +2190,7 @@ and (max-device-width: 480px)  {
     float: right;
     border-radius: 50%;
     padding-bottom: 18px;
-    background: #203b74;
+    background: #232323;
     top: -7px;
     .btn-icon{
       background: url(/image/footer-menu.png) no-repeat scroll 11px 15px transparent;
@@ -2203,7 +2206,7 @@ and (max-device-width: 480px)  {
     float: right;
     border-radius: 50%;
     padding-bottom: 18px;
-    background: #203b74;
+    background: #232323;
     top: -7px;
     .btn-icon{
       background: url(/image/footer-menu.png) no-repeat scroll 11px 15px transparent;
@@ -2995,90 +2998,90 @@ and (max-device-width: 480px)  {
 //===============button motion===================
 .ui-modal{
   .ui-button {
-    background-color: #3B5998!important;
+    background-color: #333333!important;
     color: #ffffff !important;
     background-position: center !important;
     transition: background 0.8s !important;
   }
   .ui-button:hover{
-    background-color: #577fd4 radial-gradient(circle, transparent 2%, #4e76c8 2%) center/15000% !important;
-    background-color: #577fd4 !important;
-    background: #577fd4 !important;
+    background-color: #232323 radial-gradient(circle, transparent 2%, #4e76c8 2%) center/15000% !important;
+    background-color: #232323 !important;
+    background: #232323 !important;
   }
   .ui-button:active {
-    background-color: #577fd4 !important;
+    background-color: #232323 !important;
     background-size: 100% !important;
     transition: background 0s !important;
   }
 }
 .url-button{
   .ui-button {
-    background-color: #3B5998!important;
+    background-color: #333333!important;
     color: #ffffff !important;
     background-position: center !important;
     transition: background 0.8s !important;
   }
   .ui-button:hover{
-    background-color: #577fd4 radial-gradient(circle, transparent 2%, #4e76c8 2%) center/15000% !important;
-    background-color: #577fd4 !important;
-    background: #577fd4 !important;
+    background-color: #232323 radial-gradient(circle, transparent 2%, #4e76c8 2%) center/15000% !important;
+    background-color: #232323 !important;
+    background: #232323 !important;
   }
   .ui-button:active {
-    background-color: #577fd4 !important;
+    background-color: #232323 !important;
     background-size: 100% !important;
     transition: background 0s !important;
   }
 }
 .fpreview-actions {
   .ui-button {
-    background-color: #3B5998!important;
+    background-color: #333333!important;
     color: #ffffff !important;
     background-position: center !important;
     transition: background 0.8s !important;
   }
   .ui-button:hover{
-    background-color: #577fd4 radial-gradient(circle, transparent 2%, #4e76c8 2%) center/15000% !important;
-    background-color: #577fd4 !important;
-    background: #577fd4 !important;
+    background-color: #232323 radial-gradient(circle, transparent 2%, #4e76c8 2%) center/15000% !important;
+    background-color: #232323 !important;
+    background: #232323 !important;
   }
   .ui-button:active {
-    background-color: #577fd4 !important;
+    background-color: #232323 !important;
     background-size: 100% !important;
     transition: background 0s !important;
   }
 }
 .ui-button-group{
   .ui-button {
-    background-color: #3B5998!important;
+    background-color: #333333!important;
     color: #ffffff !important;
     background-position: center !important;
     transition: background 0.8s !important;
   }
   .ui-button:hover{
-    background-color: #577fd4 radial-gradient(circle, transparent 2%, #4e76c8 2%) center/15000% !important;
-    background-color: #577fd4 !important;
-    background: #577fd4 !important;
+    background-color: #232323 radial-gradient(circle, transparent 2%, #4e76c8 2%) center/15000% !important;
+    background-color: #232323 !important;
+    background: #232323 !important;
   }
   .ui-button:active {
-    background-color: #577fd4 !important;
+    background-color: #232323 !important;
     background-size: 100% !important;
     transition: background 0s !important;
   }
 }
 .downloadNotes{
   .ui-button {
-    background-color: #3B5998!important;
+    background-color: #333333!important;
     color: #ffffff !important;
     background-position: center !important;
     transition: background 0.8s !important;
   }
   .ui-button:hover{
-    background-color: #577fd4 radial-gradient(circle, transparent 2%, #4e76c8 2%) center/15000% !important;
-    background-color: #577fd4 !important;
-    background: #577fd4 !important;
+    background-color: #232323 radial-gradient(circle, transparent 2%, #4e76c8 2%) center/15000% !important;
+    background-color: #232323 !important;
+    background: #232323 !important;
   }
   .ui-button:active {
-    background-color: #577fd4 !important;
+    background-color: #232323 !important;
     background-size: 100% !important;
     transition: background 0s !important;
   }
@@ -3093,17 +3096,17 @@ and (max-device-width: 480px)  {
     }
   }
   .file-preview:hover{
-    background-color: #577fd4 !important;
-    background: #577fd4 !important;
+    background-color: #232323 !important;
+    background: #232323 !important;
   }
   .file-preview:active {
-    background-color: #577fd4 !important;
+    background-color: #232323 !important;
   }
   .file-preview {
     height: 42px;
     padding: 10px !important;
     border-radius: 20px;
-    background: #3B5998;
+    background: #333333;
   }
 }
 // ================================

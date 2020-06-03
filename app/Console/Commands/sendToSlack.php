@@ -45,10 +45,10 @@ class sendToSlack extends Command
     public function sendToSlackErrorMessage($info)
     {
         if($info) {
-            \Slack::from('Mee2box')->to('CK0NLHUUS')->withIcon(':warning:')->attach([
+            \Slack::from('Emphtech')->to('C013K8JB8SY')->withIcon(':warning:')->attach([
                 'fallback' => 'Warning Error !',
-                'pretext' => '`Warning Logs From` *Mee2box!*',
-                'author_name' => 'i2m Production',
+                'pretext' => '`Warning Logs From` *Emphtech!*',
+                'author_name' => 'Online Minimum Production',
                 'color' => 'warning',
                 'fields' => [
                     [

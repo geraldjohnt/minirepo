@@ -21,4 +21,6 @@ package.lock.json
 .phpintel/
 robots.txt
 /config/database.php
-
+cert.pem
+key.pem
+nginx_config/packages/

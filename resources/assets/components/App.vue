@@ -235,7 +235,7 @@ export default {
                 content: ''
             },
             static_images: {
-                logo_white: `${APP_URL}/image/mee2box-white.png`,
+                logo_white: `${APP_URL}/image/mee2box-white-vert_original.png`,
                 logo_dark: `${APP_URL}/image/mee2box-darkcyan.png`
             },
             is_mobile_view: false
