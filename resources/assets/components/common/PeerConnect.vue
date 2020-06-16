@@ -260,7 +260,13 @@ export default {
         initializeOwnVideoAfterScreenShare(id, cb){
             try {
                 let textExp = new RegExp('iPhone', 'i');
-                let constraints = { audio: true, video: true };
+                let constraints = {
+                    audio: true,
+                    video:{
+                        width: { ideal: 4096 },
+                        height: { ideal: 2160 }
+                    }
+                };
 
                 // Iphone Devices doesn't support giving video constraints
                 if(!textExp.test(navigator.userAgent)) {
